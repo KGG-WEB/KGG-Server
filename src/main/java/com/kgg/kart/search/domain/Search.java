@@ -13,5 +13,6 @@ public class Search {
     @GeneratedValue
     private Long mapId;
     private String nickname;
+    private Integer level;
     private String decode;
 }
